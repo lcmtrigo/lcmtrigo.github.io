@@ -61,34 +61,35 @@
         <div class="col-lg-8 offset-lg-2 col-sm-12 text-center mb-4 col-lg-offset-2">
           <h4 class="margin-bottom-60"><strong>Let's hear from you</strong></h4><br>
           <form action="https://formspree.io/rmontrigo@gmail.com"
-            method="POST">
+            name="contact" method="POST">
 
+          <div class="nameErrorDisplay"></div>
           <div class="form-group row text-left margin-bottom-0">
             <label for="firstName" style="padding-left: 15px;">Name *</label>
           </div>
           <div class="form-group row text-left">
             <div class="col-6">
-              <input type="text" class="form-control" id="firstName" name="firstName">
-              <small id="firstNameHelp" class="form-text text-muted">First Name</small>
+              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+              <!-- <small id="firstNameHelp" class="form-text text-muted">First Name</small> -->
             </div>
             <div class="col-6">
-              <input type="text" class="form-control" id="lastName" name="lastName">
-              <small id="lastNameHelp" class="form-text text-muted">Last Name</small>
+              <input type="text" class="form-control" id="lastName" name="lastName" placeHolder="Last Name">
+              <!-- <small id="lastNameHelp" class="form-text text-muted">Last Name</small> -->
             </div>
           </div>
           <div class="form-group text-left">
             <label for="email">Email Address *</label>
-            <input type="email" class="form-control" id="email" name="email">
+            <input type="email" class="form-control" id="email" name="_replyto">
           </div>
           <div class="form-group text-left">
             <label for="subject">Subject</label>
-            <input type="text" class="form-control" id="subject" name="subject">
+            <input type="text" class="form-control" id="subject" name="_subject">
           </div>
           <div class="form-group text-left">
-            <label for="message">Message</label>
+            <label for="message">Message *</label>
             <textarea class="form-control" id="message" rows="4" name="message" style="resize: none;"></textarea>
           </div>
-          <button type="submit" class="btn btn-custom btn-primary pull-left">Send</button>
+          <button name="submit" type="submit" class="btn btn-custom btn-primary pull-left">Send</button>
 
           </form>
         </div>
@@ -101,7 +102,7 @@
     <footer class="py-5 bg-white">
       <div class="container">
         <div class="contact-me text-center padding-bottom-45">
-            <p><u><a href="mailto:rmontrigo@gmail.com">Email</a></u>&emsp;|&emsp;<u><a href="https://www.behance.net/rmtrigo" target="_blank">Behance</a></u>&emsp;|&emsp;<u><a href="https://www.linkedin.com/in/ramontrigo/" target="_blank">LinkedIn</a></u>&emsp;|&emsp;<u><a href="ramonResume.pdf" target="_blank">Resume</a></u></p>
+            <p><u><!-- twitter --><a href="https://twitter.com/ramonlol">Twitter</a></u>&emsp;|&emsp;<u><!-- linkedin --><a href="https://www.linkedin.com/in/ramontrigo/" target="_blank">LinkedIn</a></u>&emsp;|&emsp;<u><!-- behance --><a href="https://www.behance.net/rmtrigo" target="_blank">Behance</a></u>&emsp;|&emsp;<u><!-- resume --><a href="ramonResume.pdf" target="_blank">Resume</a></u></p>
         </div>
         <p class="m-0 text-center">Ramon Trigo &copy; 2017 | Vancouver, BC</p>
       </div> 
@@ -110,6 +111,43 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- form validation -->
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+
+    <script>
+      var errorSymbol = "&#x2715;&emsp;"
+
+      // wait for DOM to be ready
+      $(function(){
+        // initialize form validation on the contact form
+        $("form[name='contact']").validate({
+          // specify validation rules
+          rules: {
+            // key name = name attribute on input field
+            firstName: "required",
+            lastName: "required",
+            _replyto: {
+              required: true,
+              email: true
+            },
+            message: "required"
+          },
+          // specify validation error messages
+          messages: {
+            firstName: errorSymbol + "Please enter your first name",
+            lastName: errorSymbol + "Please enter your last name",
+            _replyto: errorSymbol + "Email address invalid. Email addresses should follow the format example@email.domain",
+            message: errorSymbol + "Message is required"
+          },
+          // make sure form is submitted to defined destination in the "action" attribute of the form when valid
+          submitHander: function(form) {
+            form.submit();
+          }
+        });
+      });
+
+    </script>
 
   </body>
 

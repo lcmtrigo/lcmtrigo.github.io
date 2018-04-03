@@ -258,6 +258,15 @@ label {
 	color: #fff;
 }
 
+label.error {
+	background-color: #cb363b;
+	color: #fff;
+	font-size: 0.7rem;
+
+	margin-top: 10px;
+	padding: 4px 8px 4px 8px;
+}
+
 @media only screen and (max-width: 640px) {
 		.container.main {
 				padding: 0px 40px 45px 40px;
