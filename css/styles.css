@@ -43,36 +43,40 @@ a:hover {
 }
 
 .container.nav {
-	padding: 80px 80px 0px 80px;
+	padding: 80px 70px 0px 70px;
 }
 
 .container.logo-banner {
-	padding: 0px 30px 0px 30px;
+	background: url('../img/bannerlogoMk2.svg');
+
+	padding: 0px;
 	
-	max-width: 92%;
+	max-height: 510px;
+	max-width: 90%;
+
 	margin-top: 40px;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.parallax {
-	background: url('../img/bannerlogo1200.png');
+/*.parallax {
+	background: url('../img/bannerlogoMk2.svg');
 
-	min-height: 440px;
+	max-height: 400px;
+	max-width: 1500px;
 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	color: #f1f1f1;
-
-	/*padding-bottom: 30px;*/
-
-}
+}*/
 
 .intro-text {
-  max-width: 50%;
+  max-width: 48%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -80,8 +84,8 @@ a:hover {
   line-height: 1.6rem;
 }
 
-.intro-text p {
-	color: #aaa;
+.container.logo-banner, .intro-text p {
+	color: #f5f5f5;
 }
 
 .rounded-circle.profile-photo {
