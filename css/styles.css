@@ -8,7 +8,7 @@ img {
 }
 
 a, .fa, .blue {
-	color: #1c56a6;
+	color: #2c5bb1;
 }
 
 a:hover {
@@ -79,13 +79,17 @@ a:hover {
   max-width: 48%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 70px;
   line-height: 1.6rem;
+  padding-left: 0px;
+  padding-right: 25px;
 }
 
 .container.logo-banner, .intro-text p {
 	color: #f5f5f5;
+	font-size: 1.14rem;
+	line-height: 2rem;
 }
 
 .rounded-circle.profile-photo {
@@ -98,7 +102,7 @@ h1.my-approach {
 }
 
 .hi-my-name {
-	font-size: 1.9rem;
+	font-size: 2.1rem;
 	margin-bottom: 20px;
 }
 
@@ -117,8 +121,15 @@ h1.my-approach {
 	margin-top: -15px;
 	margin-bottom: 40px;
 	width: 160px;
-	color: #225cb3;
-	background-color: #225cb3;
+	color: #2c5bb1;
+	background-color: #2c5bb1;
+}
+
+.process-hr {
+	margin-bottom: 25px;
+	width: 40px;
+	color: #2c5bb1;
+	background-color: #2c5bb1;
 }
 
 .fa {
@@ -152,14 +163,24 @@ h1.my-approach {
 	padding-left: 0;
 }
 
-.card-body a, .contact-me a {
+/* custom underline */
+.card-body a, 
+.contact-me a, 
+.behance a, 
+.linkedin a,
+.drop-me a {
 	color: black;
+	border-bottom: 1px solid black;
+	padding-bottom: 0.8px;
 }
 
 .card.h-100 {
 	border: none;
 }
 
+.margin-top-15 {
+	margin-top: 15px;
+}
 
 .margin-top-30 {
 	margin-top: 30px;
@@ -181,8 +202,16 @@ h1.my-approach {
 	margin-bottom: 15px;
 }
 
-.margin-top-15 {
-	margin-top: 15px;
+.margin-bottom-25 {
+	margin-bottom: 25px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-45 {
+	margin-bottom: 45px;
 }
 
 .line-height-1-8 {
@@ -276,6 +305,19 @@ label.error {
   text-align: center;
 }
 
+.design-process {
+	background-color: #2c5bb1;
+	color: white;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+
+.font-size-095 {
+	font-size: 0.95rem;
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -327,6 +369,13 @@ label.error {
 
 }
 
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+		.intro-text {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+}
+
 @media only screen and (min-width: 640px) and (max-width: 992px) {
 
 	.container.nav {
@@ -345,9 +394,6 @@ label.error {
 				margin-top: 0 !important;
 		}
 
-		.intro-text {
-			max-width: 70%;
-		}
 }
 
 @media only screen and (min-width: 1260px) {
@@ -357,6 +403,8 @@ label.error {
 				margin-right: auto;
 		}
 }
+
+
 
 
 
