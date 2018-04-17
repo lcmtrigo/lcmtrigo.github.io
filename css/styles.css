@@ -138,6 +138,7 @@ h1.my-approach {
 
 .top-3-hr {
 	margin-top: 0;
+	margin-top: 45px;
 	margin-bottom: 60px;
 	color: #ccc;
 	background-color: #ccc;
@@ -178,6 +179,7 @@ h1.my-approach {
 	border: none;
 }
 
+/* ==== margin classes ==== */
 .margin-top-15 {
 	margin-top: 15px;
 }
@@ -224,6 +226,12 @@ h3.my-4 {
 
 .py-5 {
 	padding-top: 2rem !important;
+}
+
+/* ==== padding classes ==== */
+
+.padding-bottom-20 {
+	padding-bottom: 20px;
 }
 
 .padding-bottom-30 {
