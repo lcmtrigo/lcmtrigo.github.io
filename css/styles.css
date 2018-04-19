@@ -92,9 +92,14 @@ a:hover {
 	line-height: 2rem;
 }
 
+.hi-my-name, .intro-text p {
+	text-shadow: 2px 2px 6px #070707;
+}
+
+
 .rounded-circle.profile-photo {
-	margin-top: 65px;
-	margin-bottom: 40px;
+	margin-top: 60px;
+	margin-bottom: 35px;
 }
 
 h1.my-approach {
@@ -324,6 +329,10 @@ label.error {
 
 .font-size-095 {
 	font-size: 0.95rem;
+}
+
+.questionnaire {
+	line-height: 1.6rem;
 }
 
 /* 100% Image Width on Smaller Screens */
