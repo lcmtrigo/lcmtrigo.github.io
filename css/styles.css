@@ -99,7 +99,6 @@ a:hover {
 
 .rounded-circle.profile-photo {
 	margin-top: 60px;
-	margin-bottom: 35px;
 }
 
 h1.my-approach {
@@ -219,6 +218,10 @@ h1.my-approach {
 
 .margin-bottom-45 {
 	margin-bottom: 45px;
+}
+
+.margin-bottom-60 {
+	margin-bottom: 60px;
 }
 
 .line-height-1-8 {
