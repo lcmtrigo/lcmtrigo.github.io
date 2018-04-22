@@ -1,6 +1,6 @@
 body {
 	/*background: #ccc;*/ /* ccc for testing only. comment out when finished */
-	font-family: Open Sans, Arial, Sans-serif;
+	font-family: 'Open Sans', Arial, Sans-serif;
 }
 
 img {
@@ -35,11 +35,16 @@ a:hover {
 
 .container {
 	background: white;
+	padding: 0px 80px 45px 80px
 }
 
 .container.main {
 	padding: 0px 80px 45px 80px;
 	margin-top: 60px;
+}
+
+.container.main.about {
+	margin-top: 0;
 }
 
 .container.nav {
@@ -238,6 +243,14 @@ h3.my-4 {
 
 /* ==== padding classes ==== */
 
+.padding-top-15 {
+	padding-top: 15px;
+}
+
+.padding-bottom-15 {
+	padding-bottom: 15px;
+}
+
 .padding-bottom-20 {
 	padding-bottom: 20px;
 }
@@ -316,6 +329,12 @@ label.error {
 	padding: 4px 8px 4px 8px;
 }
 
+textarea:focus, input:focus, .uneditable-input:focus {   
+    border-color: rgba(44,91,177,0.8) !important;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.9) !important;
+    outline: 0 none !important;
+}
+
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -336,6 +355,11 @@ label.error {
 
 .questionnaire {
 	line-height: 1.6rem;
+}
+
+.illustration {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* 100% Image Width on Smaller Screens */
