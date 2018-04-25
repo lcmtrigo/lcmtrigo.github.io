@@ -45,6 +45,7 @@ a:hover {
 
 .container.main.about {
 	margin-top: 0;
+	padding-bottom: 0;
 }
 
 .container.nav {
@@ -148,7 +149,7 @@ h1.my-approach {
 .top-3-hr {
 	margin-top: 0;
 	margin-top: 45px;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	color: #ccc;
 	background-color: #ccc;
 }
@@ -247,6 +248,10 @@ h3.my-4 {
 	padding-top: 15px;
 }
 
+.padding-top-30 {
+	padding-top: 30px;
+}
+
 .padding-bottom-15 {
 	padding-bottom: 15px;
 }
@@ -266,6 +271,7 @@ h3.my-4 {
 .caption {
 	font-size: 0.8rem;
 	margin-top: 15px;
+	color: black;
 }
 
 .previous-next {
@@ -355,11 +361,19 @@ textarea:focus, input:focus, .uneditable-input:focus {
 
 .questionnaire {
 	line-height: 1.6rem;
+	padding-bottom: 45px;
 }
 
 .illustration {
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.modal-footer {
+	justify-content: flex-start;
+	padding-top: 0;
+	border: none;
+	font-size: 0.8rem;
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -392,6 +406,8 @@ textarea:focus, input:focus, .uneditable-input:focus {
 
 		.intro-text {
 			max-width: 90%;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 }
 
