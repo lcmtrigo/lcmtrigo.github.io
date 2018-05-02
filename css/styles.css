@@ -384,6 +384,12 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	font-size: 0.8rem;
 }
 
+/* drop shadow for modal arrow icons */
+.ekko-lightbox-nav-overlay a:first-child span,
+.ekko-lightbox-nav-overlay a:last-child span {
+	text-shadow: 3px 2px 5px #333;
+}
+
 .navbar-toggler {
 	border-color: #2c5bb1 !important;
 	background-color: #2c5bb1 !important;
@@ -394,8 +400,6 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	font-size: 0.8rem;
 	color: rgba(255,255,255,0.9);
 }
-
-
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
