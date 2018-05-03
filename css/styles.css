@@ -8,7 +8,7 @@ img {
 }
 
 a, .fa, .blue {
-	color: #2c5bb1;
+	color: #1c56a6;
 }
 
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
 
 .navbar-brand {
 	font-size: 1.5rem;
-	color: #225cb3 !important;
+	color: #1c56a6 !important;
 }
 
 .navbar-custom .nav-item.active .nav-link,
@@ -131,15 +131,15 @@ h1.my-approach {
 	margin-top: -15px;
 	margin-bottom: 40px;
 	width: 160px;
-	color: #2c5bb1;
-	background-color: #2c5bb1;
+	color: #1c56a6;
+	background-color: #1c56a6;
 }
 
 .process-hr {
 	margin-bottom: 25px;
 	width: 40px;
-	color: #2c5bb1;
-	background-color: #2c5bb1;
+	color: #1c56a6;
+	background-color: #1c56a6;
 }
 
 .fa {
@@ -320,7 +320,7 @@ label {
 	padding: 10px 35px 10px 35px;
 
 	background-color: #fff;
-	border-color: #2c5bb1;
+	border-color: #1c56a6;
 	border-width: 2px;
 
 	color: #000;
@@ -330,7 +330,7 @@ label {
 }
 
 .btn-custom:hover {
-	background-color: #2c5bb1;
+	background-color: #1c56a6;
 	color: #fff;
 }
 
@@ -355,7 +355,7 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 }
 
 .design-process {
-	background-color: #2c5bb1;
+	background-color: #1c56a6;
 	color: white;
 	margin-bottom: 30px;
 	padding-top: 15px;
@@ -391,8 +391,8 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 }
 
 .navbar-toggler {
-	border-color: #2c5bb1 !important;
-	background-color: #2c5bb1 !important;
+	border-color: #1c56a6 !important;
+	background-color: #1c56a6 !important;
 	padding: 8px 7px 10px 7px;
 }
 
