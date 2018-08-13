@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="1536px" height="510px" viewBox="0 0 1536 510" style="enable-background:new 0 0 1536 510;"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{display:none;fill:#FCFCFC;}
+	.st1{fill:#495153;}
+	.st2{display:inline;fill:#82CCAA;}
+	.st3{fill:#E9EDEE;}
+	.st4{fill:#1C56A6;}
+	.st5{clip-path:url(#SVGID_4_);fill:#4574B6;}
+	.st6{fill:#586265;}
+	.st7{fill:#F6F8F8;}
+	.st8{display:inline;fill:#FCFCFC;}
+	.st9{clip-path:url(#SVGID_4_);}
+	.st10{fill:#C1D0E6;}
+	.st11{display:none;fill:#495153;}
+	.st12{fill:#97B2D6;}
+	.st13{fill:#FCFCFC;}
+	.st14{fill:#FFFFFF;}
+	.st15{fill:none;}
+	.st16{clip-path:url(#SVGID_2_);fill:#C1D0E6;}
+	.st17{clip-path:url(#SVGID_2_);fill:#97B2D6;}
+	.st18{display:inline;fill:#3C4344;}
+	.st19{fill:#6E93C6;}
+	.st20{clip-path:url(#SVGID_4_);fill:#C1D0E6;}
+	.st21{display:none;fill:#586265;}
+	.st22{display:none;}
+	.st23{clip-path:url(#SVGID_2_);fill:#6E93C6;}
+	.st24{display:inline;fill:#ABDDC6;}
+	.st25{display:inline;fill:#495153;}
+	.st26{fill:#4574B6;}
+]]>
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="2944.999" height="1662.357" y="-1320" x="-923.999" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Layer_1">
+	<g id="diagonal_light_1_">
+		<polygon class="st13" points="883.98,516 446,516 843.668,-12 1281.649,-12 		"/>
+		<polygon class="st7" points="1193.98,517 763,517 1160.668,-11 1591.649,-11 		"/>
+		<polygon class="st3" points="1584.98,516 1147,516 1544.668,-12 1982.649,-12 		"/>
+	</g>
+	<g id="line_1_" class="st22">
+		<rect x="306" y="195" class="st1" width="852" height="120"/>
+		<polygon class="st6" points="805.551,256.016 760.604,315 1436,315 1436,195 759.222,195 		"/>
+		<polygon class="st1" points="1099.551,256.016 1054.604,315 1730,315 1730,195 1053.222,195 		"/>
+		<polygon class="st6" points="1390.551,256.016 1345.604,315 2021,315 2021,195 1344.222,195 		"/>
+		<rect id="whole_1_" x="306" y="195" class="st6" width="1405" height="120"/>
+		<rect id="whole_white_2_" x="304" y="195" class="st13" width="1405" height="120"/>
+		<rect id="whole_white_shadow_1_" x="304" y="195" class="st8" width="1405" height="120"/>
+	</g>
+	<g id="blue_1_">
+		<polygon id="blue_1" class="st10" points="946.531,-9 -278,-9 -278,519 946.531,519 1145.469,255 		"/>
+		<polygon id="blue_2_1_" class="st12" points="843.531,-9 -381,-9 -381,519 843.531,519 1042.469,255 		"/>
+		<polygon id="blue_3" class="st19" points="701.531,-9 -523,-9 -523,519 701.531,519 900.469,255 		"/>
+		<polygon id="blue_4" class="st26" points="569.531,-9 -655,-9 -655,519 569.531,519 768.469,255 		"/>
+	</g>
+	<g id="trail_1_">
+		<defs>
+			<polygon id="SVGID_3_" points="946.531,-9 -278,-9 -278,519 946.531,519 1145.469,255 			"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<polygon id="outer_1_" style="clip-path:url(#SVGID_2_);fill:#4574B6;" points="1166,165 974.649,165 1042.469,255 974.649,345 
+			1166,345 		"/>
+		<g id="inner_1_" style="clip-path:url(#SVGID_2_);">
+			<polygon class="st19" points="1069,221 1069,195 855.256,195 874.848,221 			"/>
+			<polygon class="st19" points="853.256,315 1067,315 1067,288 873.602,288 			"/>
+			<polygon class="st12" points="723.256,315 854.256,315 874.602,288 743.602,288 			"/>
+			<polygon class="st12" points="873.848,221 854.256,195 723.256,195 742.848,221 			"/>
+		</g>
+		<polygon id="core_1_" class="st16" points="865.848,221 742.848,221 768.469,255 743.602,288 866.602,288 1069,288 1069,221 		"/>
+	</g>
+	<g id="mk2.5_1_">
+		<rect id="container_1_" x="874" y="195" class="st15" width="241" height="120"/>
+		<g id="blue-arrow_1_">
+			<polygon class="st4" points="1001.894,312 1022.015,285 879.58,285 902.242,254.818 879.649,224 1022.049,224 1002.061,197 
+				1068.415,197 1112.146,254.909 1068.404,312 			"/>
+			<path class="st4" d="M1067.17,200l41.836,55.398L1067.17,310h-60.248l20.121-27H884.548l20.794-28.164L884.548,226h142.495
+				l-19.988-26H1067 M1069.659,195h-2.489h-60.115h-9.988l5.985,7.646L1017.055,221H884.548h-9.798l5.749,8.066l18.643,25.795
+				l-18.609,25.12l-5.92,8.019h9.936h132.438l-14.051,18.771l-6.07,8.229h10.057h60.248h2.468l1.501-2.177l41.836-54.71l2.313-3.074
+				l-2.292-3.062l-41.836-55.194L1069.659,195L1069.659,195z"/>
+		</g>
+		<g id="initials_1_">
+			<g id="T_1_">
+				<path class="st14" d="M1087.41,226h-83.201c1.51,2,4.57,8.285-2.184,18.25l16.115,0.314l-25.232,34.174l3.248,4.262h22.523
+					l28.191-38h35.172l10.285-12.502L1087.41,226z"/>
+			</g>
+			<g id="R_1_">
+				<path class="st14" d="M986.301,226h-7.938h-52.088l-28.254,38.368L884.355,283h28.506l29.986-40h21.01
+					c6.585,0,1.984,7.982-5.34,10.748c-1.521,0.576-4.748,0.354-10.045,0.354l-5.068,6.554L960.213,283h28.822l-16.831-22.405
+					c10.849-1.537,28.368-18.548,28.368-27.981C1000.572,225.867,992.449,226,986.301,226z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
