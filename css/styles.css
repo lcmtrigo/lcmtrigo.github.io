@@ -32,7 +32,7 @@ a:hover {
 
 .container {
 	background: white;
-	padding: 0px 65px 0px 65px
+	padding: 0px 70px 0px 70px
 }
 
 .container.main.about {
@@ -41,7 +41,15 @@ a:hover {
 }
 
 .container.nav {
-	padding: 80px 70px 0px 70px;
+	padding-top: 80px;
+}
+
+/*.container.img-card {
+	margin-bottom: 30px;
+}*/
+
+.container.img-card img {
+	border-radius: 25px;
 }
 
 .container.logo-banner {
@@ -181,6 +189,10 @@ h1.my-approach {
 }
 
 /* ==== rounded corners ==== */
+
+.rounded-15 {
+	border-radius: 15px;
+}
 
 .project-img-card-left-rc {
 	border-radius: 15px 0px 0px 15px;
@@ -505,7 +517,7 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 
 @media only screen and (min-width: 576px) and (max-width: 640px) {
 
-	.container.nav {
+	.container.nav, .container.img-card {
 		max-width: 100%;
 		margin-left: 0;
 		margin-right: 0;
@@ -573,11 +585,15 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 
 @media only screen and (min-width: 640px) and (max-width: 992px) {
 
-	.container.nav {
-			padding: 80px 0px 0px 0px;
+	.container.nav, .container.img-card {
+			padding: 0px;
 			max-width: 84%;
 			margin-left: 8%;
 			margin-right: 8%;
+	}
+
+	.container.nav {
+		padding-top: 80px;
 	}
 
 	.container.logo-banner {
