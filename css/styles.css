@@ -55,7 +55,7 @@ a:hover {
 }
 
 .container.logo-banner {
-	background: url('../img/bannerlogoMk2s.svg');
+	background: url('../img/banner-logo/bannerlogoMk2s.svg');
 
 	padding: 0px;
 	
@@ -229,7 +229,11 @@ h1.my-approach {
 	padding: 4px 0px 0px 4px !important;
 }
 
-
+button.navbar-toggler {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 25px;
+}
 
 
 
@@ -633,7 +637,30 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	}
 }
 
+@media only screen and (min-width: 992px) {
+	.projects-padding-left {
+		padding-right: 7.5px;
+	}
+
+	.projects-padding-right {
+		padding-left: 7.5px;
+	}
+
+	.projects-left-rc {
+		border-radius: 35px 0px 0px 35px;
+	}
+
+	.projects-right-rc {
+		border-radius: 0px 35px 35px 0px;
+	}
+
+}
+
 @media only screen and (max-width: 992px) {
+	.card-img-top {
+		border-radius: 25px;
+	}
+
 	.two-column-left-rc, .two-column-right-rc, .three-column-left-rc, .three-column-middle-rc, .three-column-right-rc {
 			border-radius: 15px;
 	}
@@ -642,7 +669,10 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 			padding-right: 15px !important;
 			padding-left: 15px !important; 
 	}
+
 }
+
+
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.two-column-padding-left {
