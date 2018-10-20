@@ -61,11 +61,11 @@
 
     <!-- Page Content -->
     <section>
-      <div class="container margin-top-45">
+      <div class="container margin-top-3">
 
         <!-- form -->
         <div class="row">
-          <div class="col-lg-8 offset-lg-2 col-sm-12 text-center mb-4 col-lg-offset-2">
+          <div class="col-lg-8 offset-lg-2 col-sm-12 text-center col-lg-offset-2">
             <div class="margin-bottom-30">
               <h4><strong>Let's hear from you</strong></h4>
               <p class="drop-me font-size-095"><i>Drop me a line with this form or <a href="mailto:rmontrigo@gmail.com?subject=Mail from Portfolio">send me an email</a></i></p>
@@ -75,28 +75,28 @@
               name="contact" method="POST">
 
             <div class="nameErrorDisplay"></div>
-            <div class="form-group row text-left margin-bottom-0">
-              <label for="firstName" style="padding-left: 15px;">Name *</label>
-            </div>
-            <div class="form-group row text-left">
-              <div class="col-6">
-                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
-                <!-- <small id="firstNameHelp" class="form-text text-muted">First Name</small> -->
+            <div class="form-group margin-bottom-2 text-left">
+              <label for="firstName">Name *</label>
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                  <!-- <small id="firstNameHelp" class="form-text text-muted">First Name</small> -->
+                </div>
+                <div class="col-md-6 col-sm-12 mt-1-mobile">
+                  <input type="text" class="form-control" id="lastName" name="lastName" placeHolder="Last Name">
+                  <!-- <small id="lastNameHelp" class="form-text text-muted">Last Name</small> -->
+                </div>
               </div>
-              <div class="col-6">
-                <input type="text" class="form-control" id="lastName" name="lastName" placeHolder="Last Name">
-                <!-- <small id="lastNameHelp" class="form-text text-muted">Last Name</small> -->
-              </div>
             </div>
-            <div class="form-group text-left">
+            <div class="form-group margin-bottom-2 text-left">
               <label for="email">Email Address *</label>
               <input type="email" class="form-control" id="email" name="_replyto">
             </div>
-            <div class="form-group text-left">
+            <div class="form-group margin-bottom-2 text-left">
               <label for="subject">Subject</label>
               <input type="text" class="form-control" id="subject" name="_subject">
             </div>
-            <div class="form-group text-left">
+            <div class="form-group margin-bottom-2 text-left">
               <label for="message">Message *</label>
               <textarea class="form-control" id="message" rows="4" name="message" style="resize: none;"></textarea>
             </div>
