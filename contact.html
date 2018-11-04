@@ -20,7 +20,8 @@
     <script src="https://use.fontawesome.com/030c82131b.js"></script>
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:800" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
@@ -36,23 +37,25 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-light bg-white static-top navbar-custom">
       <div class="container nav" >
-        <a class="navbar-brand" href="index.html">Ramon Trigo</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo-navbar.svg" alt="logo">
+        </a>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-menu-word"><strong>MENU</strong></span>
+          <span class="navbar-menu-word font-muli">MENU</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -68,7 +71,7 @@
           <div class="col-lg-8 offset-lg-2 col-sm-12 text-center col-lg-offset-2">
             <div class="margin-bottom-30">
               <h4><strong>Let's hear from you</strong></h4>
-              <p class="drop-me font-size-095"><i>Drop me a line with this form or <a href="mailto:rmontrigo@gmail.com?subject=Mail from Portfolio">send me an email</a></i></p>
+              <p class="drop-me font-size-095">Drop me a line with this form or <a href="mailto:rmontrigo@gmail.com?subject=Mail from Portfolio">send me an email</a></p>
             </div>
 
             <form action="https://formspree.io/rmontrigo@gmail.com"
@@ -100,7 +103,7 @@
               <label for="message">Message *</label>
               <textarea class="form-control" id="message" rows="4" name="message" style="resize: none;"></textarea>
             </div>
-            <button name="submit" type="submit" class="btn btn-custom btn-primary pull-left">Send</button>
+            <button name="submit" type="submit" class="btn btn-custom btn-primary pull-left font-muli">SEND</button>
 
             </form>
           </div>

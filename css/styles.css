@@ -2,6 +2,10 @@ body {
 	font-family: 'Open Sans', Sans-serif;
 }
 
+.font-muli, .navbar, h1, h2, h3, h4, h5 {
+	font-family: 'Muli', Sans-serif;
+}
+
 a, .fa, .blue {
 	color: #1c56a6;
 }
@@ -12,10 +16,6 @@ img {
 
 a:hover {
 	text-decoration: none;
-}
-
-.navbar {
-	font-weight: 800;
 }
 
 .navbar-brand {
@@ -43,26 +43,22 @@ a:hover {
 }
 
 .container.nav {
-	padding-top: 80px;
+	padding-top: 60px;
 }
-
-/*.container.img-card {
-	margin-bottom: 30px;
-}*/
 
 .container.img-card img {
 	border-radius: 25px;
 }
 
 .container.logo-banner {
-	background: url('../img/banner-logo/bannerlogoMk2s.svg');
+	background: url('../img/banner-logo/bannerlogo-mk3.svg');
 
 	padding: 0px;
 	
 	min-height: 510px;
 	min-width: 98%;
 
-	margin-top: 40px;
+	margin-top: 3rem;
 	margin-left: 1%;
 	margin-right: 1%;
 
@@ -222,7 +218,7 @@ h1.my-approach {
 button.navbar-toggler, button.live-preview {
 	padding-left: 15px;
 	padding-right: 15px;
-	border-radius: 25px;
+	border-radius: 6px;
 }
 
 
@@ -369,16 +365,16 @@ label {
 	margin-bottom: 0.3rem;
 }
 
-/*s end button on contact form */
+/*send button on contact form */
 .btn-custom {
-	padding: 10px 35px 10px 35px;
+	padding: 10px 30px 10px 30px;
 
 	background-color: #fff;
 	border-color: #1c56a6;
 	border-width: 2px;
 
 	color: #000;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 
 	border-radius: 25px;
@@ -477,7 +473,7 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 .navbar-toggler, .live-preview {
 	border-color: #1c56a6 !important;
 	background-color: #1c56a6 !important;
-	padding: 8px 7px 10px 7px;
+	padding: 8px 7px 11px 7px;
 }
 
 .navbar-menu-word, .live-preview a {
@@ -527,11 +523,15 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 		}
 
 		.container.logo-banner {
-				max-width: 98%;
+			background: url('../img/banner-logo/bannerlogo-mk3-sq.svg');
+			background-position: center;
+			background-size: cover;
+
+				max-width: 95%;
 				margin-top: 0;
 				margin-left: 1%;
-				margin-right: 1%;
-				min-height: 250px;
+				margin-right: 4%;
+				min-height: 400px;
 				border-radius: 15px;
 		}
 
@@ -569,8 +569,13 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 		.rounded-circle.profile-photo {
 			border-radius: 2rem !important;
 		}
-}
 
+		.navbar-brand img {
+			width: 40px;
+			height: 40px;
+			border-radius: 6px;
+		}
+}
 
 @media only screen and (min-width: 576px) and (max-width: 640px) {
 
@@ -604,6 +609,11 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 @media only screen and (min-width: 768px) {
 	h3.my-4 {
 		margin-bottom: 45px !important;
+	}
+
+	.navbar-brand img {
+		width: 80px;
+		height: 80px;
 	}
 }
 
@@ -659,7 +669,7 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	}
 
 	.container.nav {
-		padding-top: 80px;
+		padding-top: 40px;
 	}
 
 	.container.logo-banner {
@@ -674,6 +684,12 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	.margin-top-adapt.r-1{
 			margin-top: 2rem;
 		}
+
+	.navbar-brand img {
+		width: 60px;
+		height: 60px;
+		border-radius: 9px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -700,6 +716,12 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 	.margin-top-adapt.r-1{
 			margin-top: 3rem;
 		}
+
+	.navbar-brand img {
+		width: 80px;
+		height: 80px;
+		border-radius: 12px;
+	}
 
 }
 
@@ -759,6 +781,10 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 
 	.three-column-right-rc {
 		border-radius: 0px 25px 25px 0px;
+	}
+
+	.container.nav {
+		padding-top: 80px;
 	}
 }
 
