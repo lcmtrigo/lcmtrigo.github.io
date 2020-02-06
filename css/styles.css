@@ -511,6 +511,11 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 		width: 70vw;
 		height: 70vh;
 	}
+
+	.about-me-pic {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
 }
 
 @media only screen and (max-width: 640px) {
@@ -701,12 +706,8 @@ textarea:focus, input:focus, .uneditable-input:focus, .navbar-toggler:focus {
 		padding-left: 7.5px;
 	}
 
-	.projects-left-rc {
-		border-radius: 35px 0px 0px 35px;
-	}
-
-	.projects-right-rc {
-		border-radius: 0px 35px 35px 0px;
+	.projects-rc {
+		border-radius: 35px;
 	}
 
 	.margin-top-adapt {
